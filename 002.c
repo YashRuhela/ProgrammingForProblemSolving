@@ -5,7 +5,7 @@
  * (BS+DA+HRA).
  * Program to calculate net salary.)*/
 #include<stdio.h>
-void main()
+int main()
 {
   float bs,da,hra,gross,pf,net;
   printf("Enter basic salary of the Employee : "); scanf("%f",&bs);
@@ -16,4 +16,5 @@ void main()
   net = bs - pf;
   printf("DA = %.2f\nHRA = %.2f\nGROSS = %.2f\nPF = %.2f\n",da,hra,gross,pf);
   printf("Net salary = %.2f",net);
+  return 0;
 }
